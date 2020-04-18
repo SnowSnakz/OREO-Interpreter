@@ -12,6 +12,9 @@ If you want to print a space, simply just do `O` after printing you previous cha
 
 ### Conventions
 Each line should start with an `O`, this makes sure that you've moved the cursor from the previous character (This is only enforced for the first character in the file, because the cursor starts at -1 which would cause a write violation)
+
 Each line should contain only 1 `&O`, this makes sure that you've printed the character for that line
+
 Only one character should be printed per line of code. This isn't enforced, but it helps keep things neat.
+
 If you print a space, please make an empty line after that, this lets people know where words break at.
